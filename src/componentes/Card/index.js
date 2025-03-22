@@ -1,5 +1,6 @@
 'use client';
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Card() {
   function exibirAlerta(){
@@ -15,7 +16,11 @@ export default function Card() {
             <img src="/meiaCuritiba.png" alt="Meia Maratona de Curitiba" />
             <p>15/06/2025</p>
             <p>Curitiba</p>
-            <button onClick={ exibirAlerta }>Informações</button>
+            <Link href="/corridas/meiaMaratonaDeCuritiba" legacyBehavior>
+              <a>
+                <button>Informações</button>
+              </a>
+            </Link>
           </div>
   
           <div className="card">
@@ -23,7 +28,11 @@ export default function Card() {
             <img src="/corridanoturna.jpg" alt="Corrida Noturna" />
             <p>12/04/2025</p>
             <p>Curitiba</p>
-            <button onClick={ exibirAlerta }>Informações</button>
+            <Link href="/corridas/decimaNonaCorridaNoturna" legacyBehavior>
+              <a>
+                <button>Informações</button>
+              </a>
+            </Link>
           </div>
   
           <div className="card">
@@ -31,7 +40,11 @@ export default function Card() {
             <img src="/corridascuritiba.jpg" alt="Corridas Curitiba" />
             <p>24/04/2025</p>
             <p>Curitiba</p>
-            <button onClick={ exibirAlerta }>Informações</button>
+            <Link href="/corridas/corridasCuritiba" legacyBehavior>
+              <a>
+                <button>Informações</button>
+              </a>
+            </Link>
           </div>
   
           <div className="card">
@@ -39,7 +52,11 @@ export default function Card() {
             <img src="/policiafederal.jpg" alt="3ª Corrida da polícia federal" />
             <p>06/04/2025</p>
             <p>Curitiba</p>
-            <button onClick={ exibirAlerta }>Informações</button>
+            <Link href="/corridas/meiaMaratonaDeCuritiba" legacyBehavior>
+              <a>
+                <button>Informações</button>
+              </a>
+            </Link>
           </div>
         </div>
       </div>
