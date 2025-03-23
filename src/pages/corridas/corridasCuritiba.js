@@ -2,6 +2,7 @@ import Link from "next/link";
 
 export default function decimaNonaCorridaNoturna(){
     return(
+      
         <main className="corrida-detalhes">
   <h1>2ª Etapa – Circuito de Corridas Curitiba 2025</h1>
 

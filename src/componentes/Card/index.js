@@ -52,7 +52,7 @@ export default function Card() {
             <img src="/policiafederal.jpg" alt="3ª Corrida da polícia federal" />
             <p>06/04/2025</p>
             <p>Curitiba</p>
-            <Link href="/corridas/meiaMaratonaDeCuritiba" legacyBehavior>
+            <Link href="/corridas/terceiraCorridaPF" legacyBehavior>
               <a>
                 <button>Informações</button>
               </a>

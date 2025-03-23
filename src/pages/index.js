@@ -4,6 +4,7 @@ import BoasVindas from "@/componentes/BoasVindas";
 import Menu from "@/componentes/Menu";
 import Rodape from "@/componentes/Rodape";
 import Contato from "@/componentes/Contato";
+import Topo from "@/componentes/Topo";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
         <title>Pace Certo - Corridas de Rua</title>
       </Head>
       <header>
-        <h1>Pace Certo</h1>
+        <Topo/>
         <Menu/>
       </header>
 

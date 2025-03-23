@@ -1,3 +1,9 @@
-.Contato{
-    
-}
+.linkZap {
+    color: #25D366;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .linkZap:hover {
+    text-decoration: underline;
+  }
