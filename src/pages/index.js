@@ -13,10 +13,12 @@ export default function Home() {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Pace Certo - Corridas de Rua</title>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9081276319826306"
+     crossorigin="anonymous"></script>
       </Head>
       <header>
         <Topo/>
-        <Menu/>
+        
       </header>
 
       <section>
@@ -27,6 +29,14 @@ export default function Home() {
         <Card/>
       </section>
 
+      <section>
+        <p>Dicas em breve...</p>
+      </section>
+
+      <section>
+        <p>Parcerias em breve...</p>
+      </section>
+        
       <section id="contato">
         <Contato/>
       </section>
