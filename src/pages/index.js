@@ -5,6 +5,7 @@ import Menu from "@/componentes/Menu";
 import Rodape from "@/componentes/Rodape";
 import Contato from "@/componentes/Contato";
 import Topo from "@/componentes/Topo";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
   return (
@@ -39,6 +40,7 @@ export default function Home() {
         
       <section id="contato">
         <Contato/>
+        <SpeedInsights />
       </section>
 
       <footer>
