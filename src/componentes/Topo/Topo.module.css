@@ -1,59 +1,77 @@
 .topo {
-  padding: 16px 32px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  background-color: #5e17eb;
+  padding: 16px 24px;
+  position: relative;
+  z-index: 100;
 }
 
 .logo {
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
   font-family: 'Orbitron', sans-serif;
-  letter-spacing: 1px;
-  margin: 0;
 }
 
+.menuToggle {
+  display: none;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Menu padrão */
 .menu {
-  list-style: none;
   display: flex;
-  gap: 16px;
+  gap: 20px;
+  list-style: none;
   margin: 0;
-  padding: 0;
 }
 
 .menu li a {
-
-  padding: 8px 16px;
- 
   color: white;
   text-decoration: none;
   font-weight: 500;
-  transition: background-color 0.3s ease;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: background 0.3s ease;
 }
 
 .menu li a:hover {
-  background-color: #5e17eb;
+  background-color: #4412b8;
 }
 
-/* RESPONSIVO */
+/* Mobile */
 @media (max-width: 768px) {
-  .topo {
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-  }
-
-  .logo {
-    text-align: center;
+  .menuToggle {
+    display: block;
   }
 
   .menu {
-    width: 100%;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 12px;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 100%;
+    background-color: #5e17eb;
+    padding: 16px;
+    gap: 12px;
+    transform: translateY(-200%);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .menu.ativo {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
   }
 
   .menu li a {
