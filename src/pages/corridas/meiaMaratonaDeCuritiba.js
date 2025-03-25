@@ -48,7 +48,7 @@ export default function meiaCuritiba(){
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 font-semibold underline hover:text-blue-800"
-  >           Clique aqui para se inscrever
+  >           Inscreva-se
             </a>
           <section className="mb-6">
           
