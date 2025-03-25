@@ -1,24 +1,19 @@
 .container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     gap: 16px;
+    overflow-x: auto;            /* rolagem horizontal */
     padding: 16px;
+    scroll-snap-type: x mandatory; /* scroll suave entre os cards */
   }
   
   .card {
-    flex: 1 1 250px; /* Cresce e encolhe, largura mínima */
-    max-width: 1px;
-    min-width: 250px;
-    height: 100%;
+    flex: 0 0 240px;             /* largura fixa dos cards */
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     padding: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     text-align: center;
+    scroll-snap-align: start;    /* alinha cada card ao iniciar scroll */
     transition: transform 0.2s;
   }
   
@@ -28,7 +23,7 @@
   
   .card img {
     width: 100%;
-    height: 180px;
+    height: 150px;
     object-fit: cover;
     border-radius: 6px;
     margin-bottom: 12px;
@@ -48,11 +43,27 @@
     background-color: #4412b8;
   }
   
-  /* Responsivo: no celular, mantém os cards empilhados bonitinho */
-  @media (max-width: 768px) {
+  /* Estiliza a barra de rolagem no Chrome (opcional) */
+  .container::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .container::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Em telas grandes, mostra os cards lado a lado normalmente */
+  @media (min-width: 769px) {
+    .container {
+      overflow-x: hidden; /* tira a rolagem no desktop */
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
     .card {
-      flex: 1 1 100%;
-      max-width: 100%;
+      flex: 1 1 240px;
+      max-width: 240px;
     }
   }
   
