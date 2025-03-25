@@ -38,9 +38,7 @@ export default function Home() {
         <SpeedInsights />
       </section>
 
-      <footer>
-        <Rodape/>
-      </footer>
+      
     </>
   );
 }
