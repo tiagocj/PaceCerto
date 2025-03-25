@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .card {
+    flex: 1 1 250px; /* Cresce e encolhe, largura mínima */
+    max-width: 1px;
+    min-width: 250px;
+    height: 100%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 12px;
+  }
+  
+  .card button {
+    background-color: #5e17eb;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .card button:hover {
+    background-color: #4412b8;
+  }
+  
+  /* Responsivo: no celular, mantém os cards empilhados bonitinho */
+  @media (max-width: 768px) {
+    .card {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+  
