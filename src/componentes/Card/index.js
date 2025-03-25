@@ -1,6 +1,7 @@
 'use client';
 import Link from "next/link";
 import styles from "./Card.module.css";
+import Topo from "../Topo";
 
 export default function Card() {
   return (

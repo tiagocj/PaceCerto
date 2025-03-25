@@ -17,11 +17,6 @@ export default function Home() {
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9081276319826306"
      crossorigin="anonymous"></script>
       </Head>
-      <header>
-        <Topo/>
-        
-      </header>
-
       <section>
         <BoasVindas/>
       </section>
