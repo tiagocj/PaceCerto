@@ -42,3 +42,7 @@ npm install
 
 # Rode em ambiente de desenvolvimento
 npm run dev
+
+Próximos passos:
+    * Links de acessorias;
+    * Procurar profissionais de educação física;
