@@ -5,13 +5,17 @@ import styles from './decimaNonaCorridaNoturna.module.css';
 export default function decimaNonaCorridaNoturna(){
     return(
         <main className="corrida-detalhes">
-          <section className={styles['imagem-centralizada']}>
-            <div>
-              <Image src="/corridaUnimed.jpg" alt="Corrida Noturna Unimed Curitiba"
-                width={800}
-                height={500}/>
-              </div>  
-          </section>
+          <section className={styles['imagem-wrapper']}>
+  <div className={styles['imagem-container']}>
+    <Image
+      src="/corridaUnimed.jpg"
+      alt="Corrida Noturna Unimed Curitiba"
+      fill
+      className={styles['imagem-estilo']}
+      priority
+    />
+  </div>
+</section>
         <h1>19ª Corrida Noturna Unimed Curitiba</h1>
       
         <section>

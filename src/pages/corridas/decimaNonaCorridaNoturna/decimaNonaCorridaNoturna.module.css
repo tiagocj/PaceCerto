@@ -1,4 +1,22 @@
-.imagem-centralizada {
+.imagem-wrapper {
     display: flex;
     justify-content: center;
+    padding: 2rem 1rem;
   }
+  
+  .imagem-container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    height: 500px; /* define uma altura visível */
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  }
+  
+  .imagem-estilo {
+    object-fit: contain;
+    object-position: center;
+    background-color: #fff; /* para fundo branco onde sobrar espaço */
+  }
+  
