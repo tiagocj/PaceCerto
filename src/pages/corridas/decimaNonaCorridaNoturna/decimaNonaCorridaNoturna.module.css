@@ -1,0 +1,4 @@
+.imagem-centralizada {
+    display: flex;
+    justify-content: center;
+  }
