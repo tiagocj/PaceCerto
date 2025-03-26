@@ -8,15 +8,20 @@
     position: relative;
     width: 100%;
     max-width: 1000px;
-    height: 500px; /* define uma altura visível */
+    height: 500px; /* Altura visível pra imagem aparecer */
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
   }
   
   .imagem-estilo {
-    object-fit: contain;
+    position: absolute; /* Obrigatório com fill */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Mostra a imagem inteira */
     object-position: center;
-    background-color: #fff; /* para fundo branco onde sobrar espaço */
+    background-color: #fff; /* Fundo branco se sobrar espaço */
   }
   
