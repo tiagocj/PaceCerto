@@ -1,9 +1,10 @@
 import Link from "next/link";
+import styles from './meiaMaratonaDeCuritiba.module.css';
 
 export default function meiaCuritiba(){
     return(
         <main className="corrida-detalhes">
-          
+        
         <h1>Meia Maratona Internacional de Curitiba</h1>
       
         <section>

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function TerceiraCorridaPF() {
+export default function terceiraCorridaPF() {
   return (
     <main className="p-4">
       <h1 className="text-2xl font-bold mb-4">3ª Corrida PF - Curitiba</h1>
