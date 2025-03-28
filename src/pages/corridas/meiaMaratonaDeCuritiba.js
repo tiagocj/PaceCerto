@@ -3,6 +3,7 @@ import Link from "next/link";
 export default function meiaCuritiba(){
     return(
         <main className="corrida-detalhes">
+          
         <h1>Meia Maratona Internacional de Curitiba</h1>
       
         <section>

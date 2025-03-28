@@ -138,3 +138,7 @@ button:hover {
   height: auto;
   border-radius: 10px;
 }
+
+html, body {
+  overflow-x: hidden;
+}

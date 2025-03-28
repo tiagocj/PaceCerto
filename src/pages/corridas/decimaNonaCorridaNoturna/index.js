@@ -5,7 +5,7 @@ import styles from './decimaNonaCorridaNoturna.module.css';
 export default function decimaNonaCorridaNoturna(){
     return(
         <main className="corrida-detalhes">
-          <section className={styles['imagem-wrapper']}>
+  <section className={styles['imagem-wrapper']}>
   <div className={styles['imagem-container']}>
     <Image
       src="/corridaUnimed.jpg"
