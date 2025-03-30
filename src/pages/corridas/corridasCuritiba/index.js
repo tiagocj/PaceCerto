@@ -1,9 +1,22 @@
 import Link from "next/link";
+import Image from "next/image";
+import styles from './corridasCuritiba.module.css';
 
 export default function decimaNonaCorridaNoturna(){
     return(
       
         <main className="corrida-detalhes">
+        <section className={styles['imagem-wrapper']}>
+          <div className={styles['imagem-container']}>
+            <Image
+              src="/corridascuritiba2025.jpg"
+              alt="Corridas Curitiba"
+              fill
+              className={styles['imagem-estilo']}
+              priority
+            />
+          </div>
+        </section>
   <h1>2ª Etapa – Circuito de Corridas Curitiba 2025</h1>
 
   <section>

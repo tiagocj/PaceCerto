@@ -1,9 +1,21 @@
 import Link from "next/link";
+import Image from "next/image";
 import styles from './meiaMaratonaDeCuritiba.module.css';
 
 export default function meiaCuritiba(){
     return(
-        <main className="corrida-detalhes">
+      <main className="corrida-detalhes">
+        <section className={styles['imagem-wrapper']}>
+        <div className={styles['imagem-container']}>
+        <Image
+         src="/Banner-Thome-2.jpg"
+         alt="Meia maratona de Curitiba"
+         fill
+         className={styles['imagem-estilo']}
+         priority
+        />
+  </div>
+</section>
         
         <h1>Meia Maratona Internacional de Curitiba</h1>
       
