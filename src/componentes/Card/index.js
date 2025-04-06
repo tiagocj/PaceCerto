@@ -58,6 +58,27 @@ export default function Card() {
             <a><button>Informações</button></a>
           </Link>
         </div>
+
+        <div className={styles.card}>
+          <p><strong>1ª Corrida Nacional do SESI</strong></p>
+          <img src="/sesicorrida.jpg" alt="Corrida do Forte" />
+          <p>01/05/2025</p>
+          <p>Curitiba</p>
+          <Link href="/corridas/corridaDoForte" legacyBehavior>
+            <a><button>Informações</button></a>
+          </Link>
+        </div>
+
+        <div className={styles.card}>
+          <p><strong>Circuito de Corridas Procorrer</strong></p>
+          <img src="/procorrer.jpg" alt="Procorrer" />
+          <p>04/05/2025</p>
+          <p>Curitiba</p>
+          <Link href="/corridas/corridaDoForte" legacyBehavior>
+            <a><button>Informações</button></a>
+          </Link>
+        </div>
+
       </div>
     </div>
   );
