@@ -48,6 +48,16 @@ export default function Card() {
             <a><button>Informações</button></a>
           </Link>
         </div>
+
+        <div className={styles.card}>
+          <p><strong>Corrida do Forte 2025</strong></p>
+          <img src="/forte.jpg" alt="Corrida do Forte" />
+          <p>13/04/2025</p>
+          <p>Curitiba</p>
+          <Link href="/corridas/corridaDoForte" legacyBehavior>
+            <a><button>Informações</button></a>
+          </Link>
+        </div>
       </div>
     </div>
   );
