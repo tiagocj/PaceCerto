@@ -42,7 +42,7 @@ export default function procorrer(){
             <li><strong>Distâncias:</strong> 5 km e 10 km</li>
           </ul>
 
-          <section className="mb-6">
+                <section className="mb-6">
           
           <h2 className="text-xl font-semibold mb-2">Localização no mapa</h2>
           <div className="w-full h-96">

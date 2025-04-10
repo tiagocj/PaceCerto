@@ -40,11 +40,11 @@ export default function Card() {
         </div>
 
         <div className={styles.card}>
-          <p><strong>3ª Corrida da polícia federal</strong></p>
-          <img src="/policiafederal.jpg" alt="Corrida PF" />
-          <p>06/04/2025</p>
+          <p><strong>XIII CORRIDA DA RONE</strong></p>
+          <img src="/corridaRoneBaner.png" alt="Corrida da Rone" />
+          <p>27/07/2025</p>
           <p>Curitiba</p>
-          <Link href="/corridas/terceiraCorridaPF" legacyBehavior>
+          <Link href="/corridas/corridaDaRone" legacyBehavior>
             <a><button>Informações</button></a>
           </Link>
         </div>

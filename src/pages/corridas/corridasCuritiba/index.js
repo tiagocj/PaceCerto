@@ -67,11 +67,11 @@ export default function decimaNonaCorridaNoturna(){
           <iframe
   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.080787771573!2d-49.245389624907246!3d-25.452762333928305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce447ab4b4073%3A0x8fb21f03a42cba5c!2sAv.%20Dr.%20D%C3%A1rio%20Lopes%20dos%20Santos%2C%20500%20-%20Jardim%20Bot%C3%A2nico%2C%20Curitiba%20-%20PR%2C%2082020-360!5e0!3m2!1spt-BR!2sbr!4v1711380435001!5m2!1spt-BR!2sbr"
   width="100%"
-  height="450"
-  style={{ border: 0 }}
-  allowFullScreen=""
-  loading="lazy"
-  referrerPolicy="no-referrer-when-downgrade"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
 />
 
 
