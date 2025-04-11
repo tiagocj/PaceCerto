@@ -84,7 +84,7 @@ export default function Card() {
           <img src="/corridaCavalaria.jpg" alt="Corrid da Cavalaria IMG" />
           <p>04/05/2025</p>
           <p>Curitiba</p>
-          <Link href="/corridas/CorridaCavalaria" legacyBehavior>
+          <Link href="/corridas/corridaCavalaria" legacyBehavior>
             <a><button>Informações</button></a>
           </Link>
         </div>

@@ -9,7 +9,7 @@ export default function corridaCavalaria() {
   <div className={styles['imagem-container']}>
     <Image
       src="/corridaCavalaria.jpg"
-      alt="Meia maratona de Curitiba"
+      alt="Corrida da Cavalaria"
       fill
       className={styles['imagem-estilo']}
       priority
