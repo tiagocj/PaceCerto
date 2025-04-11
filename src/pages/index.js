@@ -17,22 +17,36 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 export default function Home() {
   return (
     <>
-      <Head>
-        {/* Meta tags para charset e responsividade */}
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <Head>
+  {/* Meta tags essenciais */}
+  <meta charSet="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        {/* Título que aparece na aba do navegador */}
-        <title>Pace Certo - Corridas de Rua</title>
+  {/* Título com foco em SEO local */}
+  <title>Pace Certo - Corridas de Rua no Paraná</title>
 
-        {/* Script do Google Ads para monetização */}
-        <script 
-          async 
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9081276319826306"
-          crossOrigin="anonymous">
-        </script>
-      </Head>
+  {/* Descrição rica em palavras-chave */}
+  <meta
+    name="description"
+    content="O Pace Certo é o guia de corridas de rua no Paraná. Veja datas, locais e inscrições para provas em Curitiba, Maringá, Londrina e outras cidades."
+  />
 
+  {/* Palavras-chave opcionais (alguns dizem que o Google ignora, mas Bing ainda usa) */}
+  <meta
+    name="keywords"
+    content="corridas de rua Paraná, calendário de corridas Curitiba, meia maratona Londrina, provas de 5km Maringá, correr no Paraná"
+  />
+
+  {/* Autor (opcional, mas pode reforçar identidade) */}
+  <meta name="author" content="Tiago Jerônimo" />
+
+  {/* Google Ads para monetização */}
+  <script 
+    async 
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9081276319826306"
+    crossOrigin="anonymous">
+  </script>
+</Head>
       {/* Conteúdo principal da página */}
       <main>
         <section>
