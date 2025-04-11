@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import styles from './CorridaCavalaria.module.css';
+import styles from './corridaCavalaria.module.css';
 
 export default function corridaCavalaria() {
   return (
