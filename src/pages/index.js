@@ -61,12 +61,12 @@ export default function Home() {
 
         <section>
           {/* Placeholder para dicas - conteúdo futuro */}
-          <p>Dicas em breve...</p>
+          <p>Quer começar a correr no Paraná? O Pace Certo ajuda você a encontrar corridas em cidades como Curitiba, Ponta Grossa, Londrina e Maringá. Atualizamos nosso calendário constantemente!</p>
         </section>
 
         <section>
           {/* Placeholder para parcerias - conteúdo futuro */}
-          <p>Parcerias em breve...</p>
+          <p>Em breve, também traremos dicas de treinos, estratégias para melhorar seu pace e depoimentos de atletas locais. Fique de olho!</p>
         </section>
 
         <section id="contato">
