@@ -13,18 +13,20 @@ export default function Card() {
           <p><strong>Meia maratona de Curitiba</strong></p>
           <img src="/meiaCuritiba.png" alt="Meia Maratona de Curitiba" />
           <p>15/06/2025</p>
-          <p>Curitiba</p>
+          <strong><p>Curitiba</p></strong>
+          <strong><p>05 km | 10 km | 21 Km</p></strong>
           <Link href="/corridas/meiaMaratonaDeCuritiba" legacyBehavior>
             <a><button>Informações</button></a>
           </Link>
         </div>
 
         <div className={styles.card}>
-          <p><strong>19ª Corrida noturna</strong></p>
+          <p><strong>Corrida da Polícia Científica</strong></p>
           <img src="/corridanoturna.jpg" alt="Corrida Noturna" />
-          <p>12/04/2025</p>
-          <p>Curitiba</p>
-          <Link href="/corridas/decimaNonaCorridaNoturna" legacyBehavior>
+          <p>01/06/2025</p>
+          <strong><p>Curitiba</p></strong>
+          <strong><p>03 km | 05 km | 10 Km</p></strong>
+          <Link href="/corridas/corridaPoliciaCientifica" legacyBehavior>
             <a><button>Informações</button></a>
           </Link>
         </div>

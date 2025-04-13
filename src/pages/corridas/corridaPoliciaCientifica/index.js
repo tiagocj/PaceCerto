@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Image from 'next/image';
-import styles from './decimaNonaCorridaNoturna.module.css';
+import styles from './corridaPoliciaCientifica.module.css';
 
-export default function decimaNonaCorridaNoturna(){
+export default function corridaPoliciaCientifica(){
     return(
         <main className="corrida-detalhes">
   <section className={styles['imagem-wrapper']}>
@@ -16,7 +16,7 @@ export default function decimaNonaCorridaNoturna(){
     />
   </div>
 </section>
-        <h1>19ª Corrida Noturna Unimed Curitiba</h1>
+        <h1>Corrida Polícia Científica</h1>
       
         <section>
           <h2>Um evento para correr e celebrar</h2>
@@ -41,6 +41,21 @@ export default function decimaNonaCorridaNoturna(){
             <li><strong>Local:</strong> Ligga Arena – Curitiba/PR</li>
             <li><strong>Distâncias:</strong> 5 km e 10 km</li>
           </ul>
+
+          <section className="mb-6">
+          
+          <h2 className="text-xl font-semibold mb-2">Localização no mapa</h2>
+          <div className="w-full h-96">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.282757501555!2d-49.27633502494722!3d-25.447298033575663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce4634a3f65a3%3A0x46c8ac17393fe706!2sPra%C3%A7a%20Afonso%20Botelho%20%26%20Rua%20Engenheiros%20Rebou%C3%A7as%20-%20Rebou%C3%A7as%2C%20Curitiba%20-%20PR%2C%2082590-300!5e1!3m2!1spt-BR!2sbr!4v1744576339932!5m2!1spt-BR!2sbr"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </section>
             
             <Link href="/">
                 <button>Página inicial</button>
