@@ -22,7 +22,7 @@ export default function Card() {
 
         <div className={styles.card}>
           <p><strong>Corrida da Polícia Científica</strong></p>
-          <img src="/corridanoturna.jpg" alt="Corrida Noturna" />
+          <img src="/policiacientifica.webp" alt="Corrida da polícia científica do Paraná" />
           <p>01/06/2025</p>
           <strong><p>Curitiba</p></strong>
           <strong><p>03 km | 05 km | 10 Km</p></strong>
