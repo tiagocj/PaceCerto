@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from 'next/image';
-import styles from './corridaSesi.module.css';
+import styles from './corridasSanepar.module.css';
 
 export default function corridaSesi(){
     return(
@@ -8,7 +8,7 @@ export default function corridaSesi(){
   <section className={styles['imagem-wrapper']}>
   <div className={styles['imagem-container']}>
     <Image
-      src="/sesicorrida.jpg"
+      src="/sanepar.png"
       alt="Primeira corrida nacional do Sesi"
       fill
       className={styles['imagem-estilo']}
@@ -16,7 +16,7 @@ export default function corridaSesi(){
     />
   </div>
 </section>
-        <h1>1ª Corrida Nacional do SESI</h1>
+        <h1>CORRIDAS SANEPAR - CURITIBA</h1>
       
         <section>
           <h2>Um evento para correr e celebrar</h2>
