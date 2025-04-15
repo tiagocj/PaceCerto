@@ -8,7 +8,7 @@ export default function corridaSesi(){
   <section className={styles['imagem-wrapper']}>
   <div className={styles['imagem-container']}>
     <Image
-      src="/corridaUnimed.jpg"
+      src="/sesicorrida.jpg"
       alt="Primeira corrida nacional do Sesi"
       fill
       className={styles['imagem-estilo']}

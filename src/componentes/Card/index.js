@@ -66,7 +66,7 @@ export default function Card() {
           <img src="/sesicorrida.jpg" alt="Corrida do Forte" />
           <p>01/05/2025</p>
           <p>Curitiba</p>
-          <Link href="/corridas/corridaDoForte" legacyBehavior>
+          <Link href="/corridas/corridaSesi" legacyBehavior>
             <a><button>Informações</button></a>
           </Link>
         </div>
