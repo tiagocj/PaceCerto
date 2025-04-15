@@ -21,41 +21,32 @@ export default function corridaSesi(){
         <section className={styles['info-grid']}>
         <div className={styles['card']}>
           <h2>📅 Data & Local</h2>
-          <p><strong>Data:</strong> 01 de junho de 2025</p>
-          <p><strong>Horário:</strong> 07:00</p>
-          <p><strong>Local:</strong> Praça Afonso Botelho – Curitiba/PR</p>
+          <p><strong>Data:</strong> 07/12/2025</p>
+          <p><strong>Horário:</strong> ...</p>
+          <p><strong>Local:</strong>CURITIBA: Curitiba, PR, Brasil</p>
         </div>
 
         <div className={styles['card']}>
           <h2>🏃‍♂️ Distâncias</h2>
-          <p>3 km (caminhada), 5 km, 10 km</p>
+          <p>KIDS, 5 km, 10 km</p>
         </div>
 
-        <div className={styles['card']}>
-          <h2>🏅 Premiação</h2>
-          <p><strong>10 km:</strong> Troféus geral e por categoria</p>
-          <p><strong>5 km:</strong> Troféus para os 3 primeiros da geral</p>
-          <p><strong>Caminhada:</strong> Sem premiação</p>
-        </div>
+        
 
-        <div className={styles['card']}>
-          <h2>🎽 Kit do Atleta</h2>
-          <p>Número de peito, chip, hidratação e medalha</p>
-        </div>
+        
 
         <div className={styles['card']}>
           <h2>📝 Inscrições</h2>
-          <p>Até 23/05/2025 ou até esgotar as vagas</p>
-          <p>Transferência de titularidade e categoria conforme regulamento</p>
+          <p>Até 01/12/2025 ou até esgotar as vagas</p>
         </div>
       </section>
 
       <section>
           <h2>Informações gerais</h2>
           <ul>
-            <li><strong>Data:</strong> 12 de abril de 2025</li>
-            <li><strong>Horário da largada:</strong> em breve</li>
-            <li><strong>Local:</strong> Ligga Arena – Curitiba/PR</li>
+            <li><strong>Data:</strong> 07/12/2025 de abril de 2025</li>
+            <li><strong>Horário da largada:</strong>CURITIBA: Curitiba, PR, Brasil</li>
+            <li><strong>Local:</strong>CURITIBA: Curitiba, PR, Brasil</li>
             <li><strong>Distâncias:</strong> 5 km e 10 km</li>
           </ul>
             
