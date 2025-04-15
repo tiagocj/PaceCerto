@@ -14,7 +14,7 @@ export default function Card() {
           <img src="/meiaCuritiba.png" alt="Meia Maratona de Curitiba" />
           <p>15/06/2025</p>
           <strong><p>Curitiba</p></strong>
-          <strong><p>05 km | 10 km | 21 Km</p></strong>
+          <strong><p>05 km | 11 km | 21 Km</p></strong>
           <Link href="/corridas/meiaMaratonaDeCuritiba" legacyBehavior>
             <a><button>Informações</button></a>
           </Link>
@@ -32,10 +32,10 @@ export default function Card() {
         </div>
 
         <div className={styles.card}>
-          <p><strong>Corridas Curitiba</strong></p>
+          <p><strong>3ª Etapa Corridas Curitiba</strong></p>
           <img src="/corridascuritiba.jpg" alt="Corridas Curitiba" />
-          <p>24/04/2025</p>
-          <strong><p>Curitiba</p></strong>
+          <p>22/06/2025</p>
+          <strong><p>São José dos Pinhais</p></strong>
           <strong><p>05 km | 10 Km</p></strong>
           <Link href="/corridas/corridasCuritiba" legacyBehavior>
             <a><button>Informações</button></a>
@@ -54,7 +54,7 @@ export default function Card() {
         </div>
 
         <div className={styles.card}>
-          <p><strong>Corrida do Forte 2025</strong></p>
+          <p><strong>2025</strong></p>
           <img src="/forte.jpg" alt="Corrida do Forte" />
           <p>13/04/2025</p>
           <p>Curitiba</p>
@@ -78,8 +78,9 @@ export default function Card() {
           <p><strong>Circuito de Corridas Procorrer</strong></p>
           <img src="/procorrer.jpg" alt="Procorrer" />
           <p>04/05/2025</p>
-          <p>Curitiba</p>
-          <Link href="/corridas/corridaDoForte" legacyBehavior>
+          <p><strong>Curitiba</strong></p>
+          <strong><p>05 km</p></strong>
+          <Link href="/corridas/procorrer" legacyBehavior>
             <a><button>Informações</button></a>
           </Link>
         </div>

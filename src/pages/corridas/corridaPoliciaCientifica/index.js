@@ -29,7 +29,7 @@ export default function corridaPoliciaCientifica() {
 
         <div className={styles['card']}>
           <h2>🏃‍♂️ Distâncias</h2>
-          <p>3 km (caminhada), 5 km, 10 km</p>
+          <p>3 km (caminhada) | 5 km | 10 km</p>
         </div>
 
         <div className={styles['card']}>
