@@ -5,7 +5,7 @@ import styles from './corridasSanepar.module.css';
 export default function corridaSesi(){
     return(
         <main className="corrida-detalhes">
-  <section className={styles['imagem-wrapper']}>
+<section className={styles['imagem-wrapper']}>
   <div className={styles['imagem-container']}>
     <Image
       src="/sanepar.png"
@@ -49,11 +49,18 @@ export default function corridaSesi(){
             <li><strong>Local:</strong>CURITIBA: Curitiba, PR, Brasil</li>
             <li><strong>Distâncias:</strong> 5 km e 10 km</li>
           </ul>
-            
-            <Link href="/">
-                <button>Página inicial</button>
-            </Link>
-
+          <a
+              href="https://www.ticketsports.com.br/e/CORRIDAS%20SANEPAR%20-%20ETAPA%20CURITIBA-70696"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 font-semibold underline hover:text-blue-800"
+  >           Inscreva-se
+          </a>
+        </section>
+        <section>
+          <Link href="/">
+            <button>Página inicial</button>
+          </Link>
         </section>
       </main>
       

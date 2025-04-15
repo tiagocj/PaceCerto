@@ -35,7 +35,8 @@ export default function Card() {
           <p><strong>Corridas Curitiba</strong></p>
           <img src="/corridascuritiba.jpg" alt="Corridas Curitiba" />
           <p>24/04/2025</p>
-          <p>Curitiba</p>
+          <strong><p>Curitiba</p></strong>
+          <strong><p>05 km | 10 Km</p></strong>
           <Link href="/corridas/corridasCuritiba" legacyBehavior>
             <a><button>Informações</button></a>
           </Link>
@@ -45,7 +46,8 @@ export default function Card() {
           <p><strong>XIII CORRIDA DA RONE</strong></p>
           <img src="/corridaRoneBaner.png" alt="Corrida da Rone" />
           <p>27/07/2025</p>
-          <p>Curitiba</p>
+          <strong><p>Curitiba</p></strong>
+          <strong><p>07 Km</p></strong>
           <Link href="/corridas/corridaDaRone" legacyBehavior>
             <a><button>Informações</button></a>
           </Link>

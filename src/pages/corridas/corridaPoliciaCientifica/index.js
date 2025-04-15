@@ -59,6 +59,13 @@ export default function corridaPoliciaCientifica() {
           <li><strong>Local:</strong> Praça Afonso Botelho – Curitiba/PR</li>
           <li><strong>Distâncias:</strong> 03 km | 05 km | 10 km</li>
         </ul>
+        <a
+              href="https://www.thomeesantos.com.br/corrida-da-policia-cientifica-do-parana/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 font-semibold underline hover:text-blue-800"
+  >           Inscreva-se
+          </a>
       </section>
 
       <section className={styles['mapa']}>
