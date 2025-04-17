@@ -89,7 +89,8 @@ export default function Card() {
           <p><strong>3ª Corrida da Cavalaria</strong></p>
           <img src="/corridaCavalaria.jpg" alt="Corrid da Cavalaria IMG" />
           <p>04/05/2025</p>
-          <p>Curitiba</p>
+          <p><strong>Curitiba</strong></p>
+          <strong><p>07 km</p></strong>
           <Link href="/corridas/corridaCavalaria" legacyBehavior>
             <a><button>Informações</button></a>
           </Link>
