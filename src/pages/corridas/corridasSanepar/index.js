@@ -22,8 +22,8 @@ export default function corridaSesi(){
         <div className={styles['card']}>
           <h2>📅 Data & Local</h2>
           <p><strong>Data:</strong> 07/12/2025</p>
-          <p><strong>Horário:</strong> ...</p>
-          <p><strong>Local:</strong>CURITIBA: Curitiba, PR, Brasil</p>
+          <p><strong>Horário:</strong> 07:00 h</p>
+          <p><strong>Local:</strong> Av. Dário Lopes dos Santos, nº 500 - Curitiba-PR</p>
         </div>
 
         <div className={styles['card']}>
@@ -45,8 +45,8 @@ export default function corridaSesi(){
           <h2>Informações gerais</h2>
           <ul>
             <li><strong>Data:</strong> 07/12/2025 de abril de 2025</li>
-            <li><strong>Horário da largada:</strong>CURITIBA: Curitiba, PR, Brasil</li>
-            <li><strong>Local:</strong>CURITIBA: Curitiba, PR, Brasil</li>
+            <li><strong>Horário da largada:</strong> 07:00 h</li>
+            <li><strong>Local: </strong>Av. Dário Lopes dos Santos, nº 500 - Curitiba-PR</li>
             <li><strong>Distâncias:</strong> 5 km e 10 km</li>
           </ul>
           <a

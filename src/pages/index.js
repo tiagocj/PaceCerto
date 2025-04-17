@@ -49,10 +49,7 @@ export default function Home() {
 </Head>
       {/* Conteúdo principal da página */}
       <main>
-        <section>
-          {/* Seção de boas-vindas ao usuário */}
-          <BoasVindas />
-        </section>
+        
 
         <section id="corridas">
           {/* Cards com informações sobre corridas */}
