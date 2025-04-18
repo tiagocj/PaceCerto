@@ -55,10 +55,11 @@ export default function Card() {
 
         <div className={styles.card}>
           <p><strong>2025</strong></p>
-          <img src="/forte.jpg" alt="Corrida do Forte" />
-          <p>13/04/2025</p>
-          <p>Curitiba</p>
-          <Link href="/corridas/corridaDoForte" legacyBehavior>
+          <img src="/corridaIncrivel.png" alt="Corrida do Forte" />
+          <p>22/06/2025</p>
+          <p><strong>Curitiba</strong></p>
+          <strong><p>05 km | 10 Km |</p></strong>
+          <Link href="/corridas/corridaIncrivel" legacyBehavior>
             <a><button>Informações</button></a>
           </Link>
         </div>
