@@ -13,6 +13,7 @@ import Contato from "@/componentes/Contato";
 import Topo from "@/componentes/Topo";
 // Ferramenta da Vercel para medir performance
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import Parcerias from "@/componentes/Parcerias";
 
 export default function Home() {
   return (
@@ -63,7 +64,7 @@ export default function Home() {
 
         <section>
           {/* Placeholder para parcerias - conteúdo futuro */}
-          <p>Em breve, também traremos dicas de treinos, estratégias para melhorar seu pace e depoimentos de atletas locais. Fique de olho!</p>
+          <Parcerias />
         </section>
 
         <section id="contato">
