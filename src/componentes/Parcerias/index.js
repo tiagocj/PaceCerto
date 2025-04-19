@@ -11,7 +11,7 @@ export default function Parcerias() {
       <main className={styles.container}>
         <h1 className={styles.titulo}>Parcerias e Recomendações</h1>
         <p className={styles.descricao}>
-          Produtos recomendados para corredores. Comprando por esses links da Shopee, você apoia o projeto <strong>Pace Certo</strong> sem pagar nada a mais!
+          Produtos recomendados para corredores. Comprando por esses links da Shopee, você apoia o projeto <strong>Pace Certo</strong> 
         </p>
 
         <div className={styles.grid}>
@@ -58,7 +58,31 @@ export default function Parcerias() {
             <p>Top em tecido suplex ideal para academia e dia a dia.</p>
             <a href="https://shopee.com.br/product/785036194/22820068942?uls_trackid=52gieclj01v8&utm_campaign=id_11vEAAF5BNS&utm_content=----&utm_medium=affiliates&utm_source=an_18351280401&utm_term=cvrq4f3nws1q" target="_blank" rel="noopener noreferrer">Ver na Shopee</a>
           </div>
+
+          <div className={styles.card}>
+            <img
+              src="/afiliados/shorts.webp"
+              alt="Shorts Para Corrida"
+              className={styles.cardImage}
+            />
+            <h2>Shorts Para Corrida</h2>
+            <p>Shorts BLACKOUT Ciclico Esportes.</p>
+            <a href="https://shopee.com.br/product/1033390854/21397274952?uls_trackid=52gig0na00v8&utm_campaign=id_zExQiSk0vS&utm_content=----&utm_medium=affiliates&utm_source=an_18351280401&utm_term=cvrrczasmddq" target="_blank" rel="noopener noreferrer">Ver na Shopee</a>
+          </div>
+
+          <div className={styles.card}>
+            <img
+              src="/afiliados/shortsMasculino.webp"
+              alt="Shorts Para Corrida"
+              className={styles.cardImage}
+            />
+            <h2>Bermuda Masculina Para Corrida</h2>
+            <p>Bermuda de Compressão Ciclico</p>
+            <a href="https://shopee.com.br/product/1033390854/18298967176?uls_trackid=52gihdv40110&utm_campaign=id_V54wSaH0na&utm_content=----&utm_medium=affiliates&utm_source=an_18351280401&utm_term=cvrsfz4hxwjd" target="_blank" rel="noopener noreferrer">Ver na Shopee</a>
+          </div>
         </div>
+
+        
 
         <div className={styles.voltar}>
          <Link href="/">← Voltar para o início</Link>
