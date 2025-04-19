@@ -16,27 +16,47 @@ export default function Parcerias() {
 
         <div className={styles.grid}>
           <div className={styles.card}>
-            <h2>Tênis de Corrida</h2>
+            <img
+              src="/afiliados/mochilaHidratacao.webp"
+              alt="Mochila de Hidratação"
+              className={styles.cardImage}
+            />
+            <h2>Mochila de Hidratação</h2>
             <p>Confortável e acessível para seus treinos.</p>
-            <a href="https://shopee.com.br/link-do-tenis" target="_blank" rel="noopener noreferrer">Ver na Shopee</a>
+            <a href="https://shopee.com.br/product/309830846/4677270554?uls_trackid=52gia9ab003j&utm_campaign=id_1056yUCB92Q&utm_content=----&utm_medium=affiliates&utm_source=an_18351280401&utm_term=cvrmy15n2go1" target="_blank" rel="noopener noreferrer">Ver na Shopee</a>
           </div>
 
           <div className={styles.card}>
-            <h2>Relógio Esportivo</h2>
-            <p>Controle seu tempo e pace nos treinos.</p>
-            <a href="https://shopee.com.br/link-do-relogio" target="_blank" rel="noopener noreferrer">Ver na Shopee</a>
+            <img
+              src="/afiliados/foneConducao.webp"
+              alt="Mochila de Hidratação"
+              className={styles.cardImage}
+            />
+            <h2>Fones De Ouvido Sem Fio Ambie</h2>
+            <p>Fone de condução óssea</p>
+            <a href="https://shopee.com.br/product/464675363/21999227581?uls_trackid=52gic8070122&utm_campaign=id_mKpx4sQKm2&utm_content=----&utm_medium=affiliates&utm_source=an_18351280401&utm_term=cvrog9x7i9gs" target="_blank" rel="noopener noreferrer">Ver na Shopee</a>
           </div>
 
           <div className={styles.card}>
+            <img
+              src="/afiliados/cintoNumero.webp"
+              alt="Cinto Porta Número"
+              className={styles.cardImage}
+            />
             <h2>Cinto de Hidratação</h2>
             <p>Perfeito para longões e provas de rua.</p>
-            <a href="https://shopee.com.br/link-do-cinto" target="_blank" rel="noopener noreferrer">Ver na Shopee</a>
+            <a href="https://shopee.com.br/product/741636280/17347060882?uls_trackid=52gid59d002j&utm_campaign=id_WmPS6hBbTe&utm_content=----&utm_medium=affiliates&utm_source=an_18351280401&utm_term=cvrp686o1agw" target="_blank" rel="noopener noreferrer">Ver na Shopee</a>
           </div>
 
           <div className={styles.card}>
-            <h2>Massageador Muscular</h2>
-            <p>Ajuda na recuperação pós-treino.</p>
-            <a href="https://shopee.com.br/link-do-massageador" target="_blank" rel="noopener noreferrer">Ver na Shopee</a>
+            <img
+              src="/afiliados/top.webp"
+              alt="Cinto Porta Número"
+              className={styles.cardImage}
+            />
+            <h2>Top Fitness</h2>
+            <p>Top em tecido suplex ideal para academia e dia a dia.</p>
+            <a href="https://shopee.com.br/product/785036194/22820068942?uls_trackid=52gieclj01v8&utm_campaign=id_11vEAAF5BNS&utm_content=----&utm_medium=affiliates&utm_source=an_18351280401&utm_term=cvrq4f3nws1q" target="_blank" rel="noopener noreferrer">Ver na Shopee</a>
           </div>
         </div>
 
