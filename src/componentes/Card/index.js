@@ -65,7 +65,7 @@ export default function Card() {
         </div>
 
         <div className={styles.card}>
-          <p><strong>2025</strong></p>
+          <p><strong>Corrida Incrível 2025</strong></p>
           <img src="/corridaIncrivel.png" alt="Corrida do Forte" />
           <p>22/06/2025</p>
           <p><strong>Curitiba</strong></p>
