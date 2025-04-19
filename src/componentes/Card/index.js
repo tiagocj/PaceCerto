@@ -91,7 +91,7 @@ export default function Card() {
         <div className={styles.card}>
           <p><strong>CORRIDAS SANEPAR</strong></p>
           <img src="/sanepar.png" alt="Corrida do Forte" />
-          <p><strong>07/12/2025</strong></p>
+          <p>07/12/2025</p>
           <p><strong>Curitiba</strong></p>
           <strong><p> KIDS | 05 km | 10 Km |</p></strong>
           <Link href="/corridas/corridasSanepar" legacyBehavior>
