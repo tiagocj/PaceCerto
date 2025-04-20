@@ -12,7 +12,7 @@ export default function Topo() {
 
   return (
     <header className={styles.topo}>
-      <div className={styles.logo}>Pace Certo</div>
+      <div className={styles.logo}>Tico Running</div>
 
       <button className={styles.menuToggle} onClick={toggleMenu}>
         {menuAberto ? 'Fechar' : 'Menu'}

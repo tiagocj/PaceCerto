@@ -26,7 +26,7 @@ export default function Home() {
         <meta name="google-site-verification" content="BdZjUSoTwmhed3xaMY2bpRP9MnwuGsivbKs9LfiW7PE" />
 
         {/* Título com foco em SEO local */}
-        <title>Pace Certo - Corridas de rua no Paraná</title>
+        <title>Tico Rinning - Corridas de rua no Paraná</title>
 
         {/* Descrição rica em palavras-chave */}
         <meta
@@ -53,7 +53,7 @@ export default function Home() {
         {/* Conteúdo principal da página */}
         <main>
         <section>
-        <h1 className="visually-hidden">Seu calendário de corridas de rua em Curitiba, Pinhais, são josé dos pinhais no Paraná com o Pace Certo Corridas de Rua</h1>
+        <h1 className="visually-hidden">Tico Running, seu calendário de corridas de rua em Curitiba, Pinhais, são josé dos pinhais no Paraná com o Pace Certo Corridas de Rua</h1>
 
         </section>
 
@@ -64,7 +64,7 @@ export default function Home() {
 
         <section>
           {/* Placeholder para dicas - conteúdo futuro */}
-          <p>Quer começar a correr no Paraná? O Pace Certo ajuda você a encontrar corridas em cidades como Curitiba, Ponta Grossa, Londrina e Maringá. Atualizamos nosso calendário constantemente!</p>
+          <p>Quer começar a correr no Paraná? O Site Tico Running, ajuda você a encontrar corridas em cidades como Curitiba, Ponta Grossa, Londrina e Maringá. Atualizamos nosso calendário constantemente!</p>
         </section>
 
         <section>
