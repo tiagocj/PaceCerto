@@ -5,9 +5,7 @@ import Link from 'next/link';
 export default function Parcerias() {
   return (
     <>
-      <Head>
-        <title>Parcerias - Pace Certo</title>
-      </Head>
+      
       <main className={styles.container}>
         <h1 className={styles.titulo}>Parcerias e Recomendações</h1>
         <p className={styles.descricao}>
