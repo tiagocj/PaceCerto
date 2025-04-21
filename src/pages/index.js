@@ -31,13 +31,13 @@ export default function Home() {
         {/* Descrição rica em palavras-chave */}
         <meta
           name="description"
-          content="O Pace Certo é o guia de corridas de rua no Paraná. Veja datas, locais e inscrições para provas em Curitiba, Maringá, Londrina e outras cidades."
+          content="O Tico Running é o guia de corridas de rua no Paraná. Veja datas, locais e inscrições para provas em Curitiba, Maringá, Londrina e outras cidades."
         />
 
         {/* Palavras-chave opcionais (alguns dizem que o Google ignora, mas Bing ainda usa) */}
         <meta
           name="keywords"
-          content="corridas de rua Paraná, calendário de corridas Curitiba, meia maratona Londrina, provas de 5km Maringá, correr no Paraná"
+          content="corridas de rua Paraná, calendário de corridas Curitiba, meia maratona, provas de 5km, 10km, 21km, 42km, correr no Paraná"
         />
 
         {/* Autor (opcional, mas pode reforçar identidade) */}
