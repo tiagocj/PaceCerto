@@ -62,12 +62,12 @@ export default function Home() {
           <Card />
         </section>
 
-        <section>
+        <section id="dicas">
           {/* Placeholder para dicas - conteúdo futuro */}
           <p>Quer começar a correr no Paraná? O Site Tico Running, ajuda você a encontrar corridas em cidades como Curitiba, Ponta Grossa, Londrina e Maringá. Atualizamos nosso calendário constantemente!</p>
         </section>
 
-        <section>
+        <section id="parcerias">
           {/* Placeholder para parcerias - conteúdo futuro */}
           <Parcerias />
         </section>

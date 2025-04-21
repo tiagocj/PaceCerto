@@ -1,7 +1,7 @@
 /* Estilo do topo com imagem de fundo */
 .topo {
   position: relative;
-  height: 250px;
+  height: 260px;
   background-image: url('/minhafotoquadra.jpeg');
   background-size: cover;
   background-position: center;
