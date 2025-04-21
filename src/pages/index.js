@@ -25,7 +25,7 @@ export default function Home() {
         <meta name="google-site-verification" content="AsUxcu9_eEnrayHdM-x53hDig3Z0SKtK9ezub0oiWKc" />
 
         {/* Título com foco em SEO local */}
-        <title>Tico Rinning - Corridas de rua no Paraná</title>
+        <title>Tico Rinning</title>
 
         {/* Descrição rica em palavras-chave */}
         <meta
