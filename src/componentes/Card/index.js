@@ -55,7 +55,7 @@ export default function Card() {
 
         <div className={styles.card}>
           <p><strong>3ª Etapa Corridas Curitiba</strong></p>
-          <img src="/corridascuritiba.jpg" alt="Corridas Curitiba" />
+          <img src="/corridasSaoJose.png" alt="Corridas Curitiba" />
           <p>22/06/2025</p>
           <strong><p>São José dos Pinhais</p></strong>
           <strong><p>05 km | 10 Km</p></strong>
