@@ -22,8 +22,7 @@ export default function Home() {
         {/* Meta tags essenciais */}
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-        <meta name="google-site-verification" content="BdZjUSoTwmhed3xaMY2bpRP9MnwuGsivbKs9LfiW7PE" />
+        <meta name="google-site-verification" content="AsUxcu9_eEnrayHdM-x53hDig3Z0SKtK9ezub0oiWKc" />
 
         {/* Título com foco em SEO local */}
         <title>Tico Rinning - Corridas de rua no Paraná</title>
