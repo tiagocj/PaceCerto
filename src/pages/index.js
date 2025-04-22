@@ -30,7 +30,7 @@ export default function Home() {
         {/* Descrição rica em palavras-chave */}
         <meta
           name="description"
-          content="O Tico Running é o guia de corridas de rua no Paraná. Veja datas, locais e inscrições para provas em Curitiba, Maringá, Londrina e outras cidades."
+          content="Encontre corridas de rua no Paraná! Veja o calendário atualizado com provas em Curitiba, Maringá, Londrina e outras cidades."
         />
 
         {/* Palavras-chave opcionais (alguns dizem que o Google ignora, mas Bing ainda usa) */}
@@ -40,14 +40,9 @@ export default function Home() {
         />
 
         {/* Autor (opcional, mas pode reforçar identidade) */}
-        <     meta name="author" content="Tiago Jerônimo" />
+        <meta name="author" content="Tiago Jerônimo" />
 
-        {/* Google Ads para monetização */}
-        <script 
-          async 
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9081276319826306"
-          crossOrigin="anonymous">
-        </script>
+  
       </Head>
         {/* Conteúdo principal da página */}
         <main>
