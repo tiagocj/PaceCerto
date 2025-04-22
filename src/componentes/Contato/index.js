@@ -16,7 +16,7 @@ export default function Contato() {
           style={{ display: "flex", alignItems: "center", gap: "8px" }}
         >
           <img
-            src="/whats.jpg"
+            src="/whats.png"
             alt="WhatsApp"
             width="24"
             height="24"
