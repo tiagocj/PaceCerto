@@ -21,7 +21,7 @@ export default function Card() {
         </div>
 
         <div className={styles.card}>
-          <p><strong>3ª Corrida da Cavalaria</strong></p>
+          <p><strong>3ª Corrida da Cavalaria.</strong></p>
           <img src="/corridaCavalaria.jpg" alt="Corrid da Cavalaria IMG" />
           <p>04/05/2025</p>
           <p><strong>Curitiba</strong></p>
