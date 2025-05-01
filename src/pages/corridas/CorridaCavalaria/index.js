@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from './corridaCavalaria.module.css';
 
-export default function corridaCavalaria() {
+export default function corridacavalaria() {
   return (
     <main className="p-4">
       <div className={styles['imagem-wrapper']}>
