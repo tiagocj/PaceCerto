@@ -26,7 +26,7 @@ export default function Card() {
           <p>04/05/2025</p>
           <p><strong>Curitiba</strong></p>
           <strong><p>07 km</p></strong>
-          <Link href="/corridas/corridaCavalaria" legacyBehavior>
+          <Link href="/corridas/corridacavalaria" legacyBehavior>
             <a><button>Informações</button></a>
           </Link>
         </div>
