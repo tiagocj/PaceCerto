@@ -9,27 +9,6 @@ export default function Card() {
       <h2 style={{ textAlign: "center", marginTop: "32px" }}>Calendário de Corridas</h2>
       
       <div className={styles.container}>
-        <div className={styles.card}>
-          <p><strong>Circuito de Corridas Procorrer</strong></p>
-          <img src="/procorrer.jpg" alt="Procorrer" />
-          <p>04/05/2025</p>
-          <p><strong>Curitiba</strong></p>
-          <strong><p>05 km</p></strong>
-          <Link href="/corridas/procorrer" legacyBehavior>
-            <a><button>Informações</button></a>
-          </Link>
-        </div>
-
-        <div className={styles.card}>
-          <p><strong>3ª Corrida da Cavalaria</strong></p>
-          <img src="/corridaCavalaria.jpg" alt="Corrid da Cavalaria IMG" />
-          <p>04/05/2025</p>
-          <p><strong>Curitiba</strong></p>
-          <strong><p>07 km</p></strong>
-          <Link href="/corridas/corridaCavalaria" legacyBehavior>
-            <a><button>Informações</button></a>
-          </Link>
-        </div>
 
         <div className={styles.card}>
           <p><strong>Corrida da Polícia Científica</strong></p>
