@@ -5,7 +5,6 @@ import Link from 'next/link';
 export default function Parcerias() {
   return (
     <>
-      
       <main className={styles.container}>
         <h1 className={styles.titulo}>Parcerias e Recomendações</h1>
         <p className={styles.descricao}>
@@ -14,6 +13,7 @@ export default function Parcerias() {
 
         <div className={styles.grid}>
           <div className={styles.card}>
+            <span className={styles.selo}>Parceria</span>
             <img
               src="/afiliados/mochilaHidratacao.webp"
               alt="Mochila de Hidratação"
@@ -25,9 +25,10 @@ export default function Parcerias() {
           </div>
 
           <div className={styles.card}>
+            <span className={styles.selo}>Parceria</span>
             <img
               src="/afiliados/foneConducao.webp"
-              alt="Mochila de Hidratação"
+              alt="Fones de Ouvido"
               className={styles.cardImage}
             />
             <h2>Fones De Ouvido Sem Fio Ambie</h2>
@@ -36,6 +37,7 @@ export default function Parcerias() {
           </div>
 
           <div className={styles.card}>
+            <span className={styles.selo}>Parceria</span>
             <img
               src="/afiliados/cintoNumero.webp"
               alt="Cinto Porta Número"
@@ -47,9 +49,10 @@ export default function Parcerias() {
           </div>
 
           <div className={styles.card}>
+            <span className={styles.selo}>Parceria</span>
             <img
               src="/afiliados/top.webp"
-              alt="Cinto Porta Número"
+              alt="Top Fitness"
               className={styles.cardImage}
             />
             <h2>Top Fitness</h2>
@@ -58,6 +61,7 @@ export default function Parcerias() {
           </div>
 
           <div className={styles.card}>
+            <span className={styles.selo}>Parceria</span>
             <img
               src="/afiliados/shorts.webp"
               alt="Shorts Para Corrida"
@@ -69,9 +73,10 @@ export default function Parcerias() {
           </div>
 
           <div className={styles.card}>
+            <span className={styles.selo}>Parceria</span>
             <img
               src="/afiliados/shortsMasculino.webp"
-              alt="Shorts Para Corrida"
+              alt="Bermuda Masculina Para Corrida"
               className={styles.cardImage}
             />
             <h2>Bermuda Masculina Para Corrida</h2>
@@ -80,10 +85,8 @@ export default function Parcerias() {
           </div>
         </div>
 
-        
-
         <div className={styles.voltar}>
-         <Link href="/">← Voltar para o início</Link>
+          <Link href="/">← Voltar para o início</Link>
         </div>
       </main>
     </>
