@@ -42,7 +42,7 @@ export default function corridaNissei() {
       </section>
 
       <a
-              href="https://assessocor.online/evento/3acorrida-da-cavalaria-2025/669"
+              href="https://www.ticketsports.com.br/e/3-nissei-run-curitiba-71799?termo=&periodo=0&mes=0&inicio=&fim=&ordenacao=&pais=Brasil"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 font-semibold underline hover:text-blue-800"
