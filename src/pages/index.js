@@ -15,6 +15,8 @@ import Topo from "@/componentes/Topo";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import Parcerias from "@/componentes/Parcerias";
 
+import CookieBanner from "@/componentes/CookieBanner";
+
 export default function Home() {
   return (
     <>
@@ -73,6 +75,9 @@ export default function Home() {
           {/* Monitoramento de performance do site pela Vercel */}
           <SpeedInsights />
         </section>
+         {/* ...seções anteriores... */}
+  <SpeedInsights />
+  <CookieBanner /> {/* <-- Aqui! */}
       </main>
     </>
   );
