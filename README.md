@@ -1,8 +1,8 @@
-# 🏃 Pace Certo – Portal de Corridas de Rua
+# 🏃 Tico Running – Portal de Corridas de Rua
 
 **Pace Certo** é um site voltado para os apaixonados por corrida de rua. Aqui você encontra eventos esportivos atualizados, comparativo de tênis, avaliações de usuários e muito mais!
 
-[🔗 Acesse o site](https://pacecertocorridas.com.br)  
+[🔗 Acesse o site](https://ticorunning.com.br)  
 [📁 Veja o repositório](https://github.com/TicoKazuyaDev/paceCerto)
 
 ---
