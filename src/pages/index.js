@@ -49,7 +49,7 @@ export default function Home() {
         {/* Conteúdo principal da página */}
         <main>
         <section>
-        <h1 className="visually-hidden">Tico Running, seu calendário de corridas de rua em Curitiba, Pinhais, são josé dos pinhais no Paraná com o Pace Certo Corridas de Rua</h1>
+        <h1 className="visually-hidden">Tico Running, seu calendário de corridas de rua em Curitiba, Pinhais, são josé dos pinhais no Paraná com o Tico Running Corridas de Rua</h1>
 
         </section>
 
