@@ -66,6 +66,17 @@ export default function Card() {
         </div>
 
         <div className={styles.card}>
+          <p><strong>15 k de Santa</strong></p>
+          <img src="/santa15.jpeg" alt="15 k de Santa" />
+          <p>06/07/2025</p>
+          <strong><p>Curitiba</p></strong>
+          <strong><p>5.5 km | 15 Km</p></strong>
+          <Link href="/corridas/corrida15ksanta" legacyBehavior>
+            <a><button>Informações</button></a>
+          </Link>
+        </div>
+
+        <div className={styles.card}>
           <p><strong>XIII CORRIDA DA RONE</strong></p>
           <img src="/corridaRoneBaner.png" alt="Corrida da Rone" />
           <p>27/07/2025</p>
