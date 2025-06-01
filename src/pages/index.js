@@ -49,8 +49,12 @@ export default function Home() {
         {/* Conteúdo principal da página */}
         <main>
         <section>
-        <h1 className="visually-hidden">Tico Running, seu calendário de corridas de rua em Curitiba, Pinhais, são josé dos pinhais no Paraná com o Tico Running Corridas de Rua</h1>
-
+        <h1 style={{ fontSize: '1.8rem', textAlign: 'center', marginTop: '1rem' }}>
+          Calendário de Corridas de Rua no Paraná
+        </h1>
+          <p style={{ textAlign: 'center', fontSize: '1rem', color: '#444' }}>
+            Encontre provas em Curitiba e região metropolitana.
+          </p>
         </section>
 
         <section id="corridas">
