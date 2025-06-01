@@ -11,17 +11,6 @@ export default function Card() {
       <div className={styles.container}>
 
         <div className={styles.card}>
-          <p><strong>Corrida da Polícia Científica</strong></p>
-          <img src="/policiacientifica.webp" alt="Corrida da polícia científica do Paraná" />
-          <p>01/06/2025</p>
-          <strong><p>Curitiba</p></strong>
-          <strong><p>03 km | 05 km | 10 Km</p></strong>
-          <Link href="/corridas/corridaPoliciaCientifica" legacyBehavior>
-            <a><button>Informações</button></a>
-          </Link>
-        </div>
-
-        <div className={styles.card}>
           <p><strong>XXI Corrida do artilheiro</strong></p>
           <img src="/artilharia.png" alt="XXU corrida do artilheiro" />
           <p>08/06/2025</p>
