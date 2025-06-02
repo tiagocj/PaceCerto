@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /
+Disallow:
 
-Sitemap: https://www.pacecertocorridas.com.br/sitemap.xml
+Sitemap: https://www.ticorunning.com.br/sitemap.xml
