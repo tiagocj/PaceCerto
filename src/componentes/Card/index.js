@@ -11,28 +11,6 @@ export default function Card() {
       <div className={styles.container}>
 
         <div className={styles.card}>
-          <p><strong>XXI Corrida do artilheiro</strong></p>
-          <img src="/artilharia.png" alt="XXU corrida do artilheiro" />
-          <p>08/06/2025</p>
-          <strong><p>Curitiba</p></strong>
-          <strong><p>05 km | 10 Km</p></strong>
-          <Link href="/corridas/corridaDoArtilheiro" legacyBehavior>
-            <a><button>Informações</button></a>
-          </Link>
-        </div>
-
-        <div className={styles.card}>
-          <p><strong>3ª Nissei Run</strong></p>
-          <img src="/nissei.png" alt="3 corrida nissei" />
-          <p>08/06/2025</p>
-          <strong><p>Curitiba</p></strong>
-          <strong><p>05 km | 10 Km</p></strong>
-          <Link href="/corridas/corridaNissei" legacyBehavior>
-            <a><button>Informações</button></a>
-          </Link>
-        </div>
-
-        <div className={styles.card}>
           <p><strong>Meia maratona de Curitiba</strong></p>
           <img src="/meiaCuritiba.png" alt="Meia Maratona de Curitiba" />
           <p>15/06/2025</p>
